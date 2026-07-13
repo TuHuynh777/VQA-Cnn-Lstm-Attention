@@ -55,11 +55,9 @@ Results showed that attention-based models achieved better validation accuracy a
 ```
 vqa-cnn-lstm-attention/
 ├── notebooks/
-│   ├── Code_Midterm_DL.ipynb          # Data preprocessing, model definitions, training loop
+│   ├── Code_Core_DL.ipynb          # Data preprocessing, model definitions, training loop
 │   ├── beam_search_inference.ipynb    # Beam search decoding for all 4 models
 │   └── greedy_decode_inference.ipynb  # Greedy decoding for all 4 models
-├── report/
-│   └── Deep_Learning_Midterm_Report.pdf
 ├── assets/
 │   └── sample_result.jpg
 ├── requirements.txt
@@ -69,7 +67,7 @@ vqa-cnn-lstm-attention/
 
 ## How to Run
 ```bash
-git clone https://github.com/<your-username>/vqa-cnn-lstm-attention.git
+git clone https://github.com/TuHuynh777/VQA-Cnn-Lstm-Attention.git
 cd vqa-cnn-lstm-attention
 pip install -r requirements.txt
 # Open notebooks/Code_Midterm_DL.ipynb in Jupyter or Google Colab
