@@ -58,6 +58,7 @@ vqa-cnn-lstm-attention/
 │   ├── Code_Core_DL.ipynb          # Data preprocessing, model definitions, training loop
 │   ├── beam_search_inference.ipynb    # Beam search decoding for all 4 models
 │   └── greedy_decode_inference.ipynb  # Greedy decoding for all 4 models
+├── QA.csv #Questions and ansers for per image
 ├── assets/
 │   └── sample_result.jpg
 ├── requirements.txt
